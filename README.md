@@ -9,6 +9,12 @@ It reads a sample job dataset, applies weighting functions (chance, wage, value,
 - **Ordered views**: sort applications by completion status, priority, and due date.
 - **This week’s deadlines**: filter open, incomplete applications due within 7 days.
 
+## Weighting System
+- **Chance** estimates are intuitive, based mostly on vibes, with a baseline centered around ~17%.
+- **Wage weights** are calculated relative to your current pay, prioritizing roles that are comparable to or above your existing salary.
+- **Value scale** ranges from 1 (resume filler) to 3 or more (serious contribution), with exceptionally valuable roles scoring up to around 15.
+- **Location weights** reflect whether a move would be required: Washington DC is weighted highest, Southern California and Remote options are slightly positive, and other locations are treated as neutral.
+
 ## Input
 - Tab-delimited file at `data/sample_jobs_list.csv` with columns like:
   - `job__title`, `organization`, `due_date`, `min_wages`, `max_wages`,  
