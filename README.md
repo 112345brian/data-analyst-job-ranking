@@ -24,6 +24,21 @@ It reads a sample job dataset, applies weighting functions (chance, wage, value,
 - `ordered_jobs`: full job list, sorted by status, priority, and deadline.  
 - `due_soon`: subset of incomplete applications due within the next 7 days.
 
+## Example Output
+
+```r
+ordered_jobs %>% head(3)
+```
+
+```
+# A tibble: 3 × 11
+  job__title        organization         due_date   min_wages … priority
+  <chr>             <chr>                <date>          <dbl> … <dbl>
+1 Policy Intern     Economic Research…   2025-10-15       28.0 … 1.20
+2 Research Analyst  Social Impact Group  2025-09-18       43.0 … 1.35
+3 Consulting Intern Analytics Partners   2026-02-11       30.0 … 1.05
+```
+
 ## Usage
 ```r
 # install dependencies if not already installed
