@@ -1,5 +1,5 @@
-# ignore private data
-data/private  # keep only the sample CSV for demo
+# ignore private data only
+data/private/
 
 # R / misc
 .Rhistory
@@ -10,8 +10,6 @@ data/private  # keep only the sample CSV for demo
 .DS_Store
 
 # outputs (common formats)
-*.csv
-!data/jobs_sample.csv   # explicitly allow the sample again
 *.pdf
 *.html
 *.rds
