@@ -1,0 +1,6 @@
+job__title,organization,due_date,min_wages,max_wages,location,description,value,chance,completed
+Research Assistant,Health Policy Institute,2026-01-14,20.5,25.63,Remote,Part-time remote research role with flexible scope,3,35,FALSE
+Policy Intern,Economic Research Center,2025-10-15,28,28,DC,"Prestigious RA-style internship, high competition",9,15,FALSE
+Data Science Fellow,Global Public Health Org,2025-10-31,40,48,Other,Two-year fellowship combining technical + policy skills,8,18,FALSE
+Consulting Analyst,Analytics Partners,2026-02-11,30,40,Other,Consulting internship with quant focus,8,22,FALSE
+Research Analyst,Social Impact Group,2025-09-18,38,43,DC,"Quant role in policy consulting, strong brand",10,10,FALSE
