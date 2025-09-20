@@ -42,7 +42,7 @@ ordered_jobs %>% head(3)
 ## Usage
 ```r
 # install dependencies if not already installed
-install.packages(c("dplyr", "readr"))
+install.packages(c("dplyr", "readr", "here"))
 
 # load script
 source("job_applications_table.r")
@@ -53,3 +53,6 @@ ordered_jobs
 # see only jobs due soon
 due_soon
 ```
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
