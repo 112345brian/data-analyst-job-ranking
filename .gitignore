@@ -1,0 +1,17 @@
+# ignore private data
+data/private  # keep only the sample CSV for demo
+
+# R / misc
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS junk
+.DS_Store
+
+# outputs (common formats)
+*.csv
+!data/jobs_sample.csv   # explicitly allow the sample again
+*.pdf
+*.html
+*.rds
