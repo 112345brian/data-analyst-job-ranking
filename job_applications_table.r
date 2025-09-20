@@ -3,7 +3,7 @@ rm(list = ls())
 # dependencies
 library(dplyr)
 library(readr)
-jobs <- read_csv("/Users/bri/MEGA/WORK/Applications Project/job_listings.csv")
+jobs <- read_csv("/Users/bri/programming/data_analyst_job_ranking/data/sample_jobs_list.csv")
 
 
 # create columns
