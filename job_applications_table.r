@@ -4,6 +4,7 @@ rm(list = ls())
 library(dplyr)
 library(readr)
 library(here)
+here::i_am("job_applications_table.r")
 jobs <- read_csv(here("data", "sample_jobs_list.csv"))
 
 
